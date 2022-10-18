@@ -1,3 +1,5 @@
+local QRCore = exports['qr-core']:GetCoreObject()
+
 Citizen.CreateThread(function()
     local active = false
     local timer = 0
